@@ -6,10 +6,10 @@
 .header{
   height: 100vh;
   width: 100%;
-  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(data/pics/newbg.jpg);
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(data/pics/bg.png);
   background-position: center;
   background-size: cover;
-  color: #f54260;
+  color: #fff;
 }
 nav {
   display: flex;
@@ -30,31 +30,24 @@ nav ul li{
   margin: 0 20px
 }
 .main-text{
-  margin: auto;
+  margin: 15% auto;
   text-align: center;
 }
 .main-text h1{
   font-size: 50px;
-  color: #f54260;
-}
-.main-text h2{
-  color: #f54260;
-}
-.main-text h3{
-  color: #f54260;
 }
 .main-text .button{
   text-decoration: none;
   display: block;
-  width: 100px;
+  width: 140px;
   height: 35px;
   margin: 25px auto;
   color: #fff;
   line-height: 35px;
-  border: 1px solid #f54260;
+  border: 1px solid #fff;
 }
 .button:hover{
-  background: #f54260;
-  color: #fff;
-  transition: 0.8s;
+  background: #fff;
+  color: #000;
+  transition: 0.5s;
 }
